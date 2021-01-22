@@ -1,0 +1,11 @@
+.v-enter-active, .v-leave-active {
+    transition: all 1s;
+}
+.v-leave-active {
+    position: absolute;
+}
+/* opacity:0から1へのフェードイン＆フェードアウト */
+.v-enter, .v-leave-to {
+    opacity: 0s;
+    transform: translateX(-20px);
+}
